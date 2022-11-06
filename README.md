@@ -1,17 +1,26 @@
 # RocketMQ Helm
 
-## 部署
+## Usage
 
-``` shell
-# git clone
-# cd rocketmq-helm
+[Helm](https://helm.sh) must be installed to use the charts.  Please refer to
+Helm's [documentation](https://helm.sh/docs) to get started.
 
-kubectl create namespace rocketmq
-# 部署测试集群, 单 Master
-helm -n rocketmq install rocketmq -f examples/test.yml ./
-# 部署生产集群, 多 Master 多 Slave
-helm -n rocketmq install rocketmq -f examples/production.yaml ./
-```
+Once Helm has been set up correctly, add the repo as follows:
+
+helm repo add <alias> https://<orgname>.github.io/helm-charts
+
+If you had already added this repo earlier, run `helm repo update` to retrieve
+the latest versions of the packages.  You can then run `helm search repo
+<alias>` to see the charts.
+
+To install the <chart-name> chart:
+    
+    helm repo add rocketmq-helm https://<orgname>.github.io/helm-charts
+    helm install rocketmq rocketmq-helm/rocketmq
+
+To uninstall the chart:
+
+    helm delete rocketmq
 
 ## Broker 集群架构
 
