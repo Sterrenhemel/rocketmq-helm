@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  rocketmq-export:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-07T04:11:16.315668592Z"
+    description: A Helm chart for rocketmq export
+    digest: f0b63fabe02b4463a87e62384c84eca4638613eb6726d8743177b9ab824c6402
+    keywords:
+    - rocketmq
+    - export
+    name: rocketmq-export
+    type: application
+    urls:
+    - https://github.com/Sterrenhemel/rocketmq-helm/releases/download/rocketmq-export-1.2.0/rocketmq-export-1.2.0.tgz
+    version: 1.2.0
+generated: "2022-11-07T04:11:16.315683092Z"
