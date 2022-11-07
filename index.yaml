@@ -1,6 +1,30 @@
 apiVersion: v1
 entries:
+  rocketmq-cluster:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-07T04:48:50.28028641Z"
+    description: A Helm chart for Kubernetes
+    digest: 6983f401a2967e1bb1d2ec1fc41c5225987b1aa9f35bbd2d8f54aadb9f089bba
+    name: rocketmq-cluster
+    type: application
+    urls:
+    - https://github.com/Sterrenhemel/rocketmq-helm/releases/download/rocketmq-cluster-1.2.2/rocketmq-cluster-1.2.2.tgz
+    version: 1.2.2
   rocketmq-export:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-07T04:48:50.446185701Z"
+    description: A Helm chart for rocketmq export
+    digest: 416cecb75ce307cc0eefde093b79e0519cda53065f1eb3045d0f2f113196eb2c
+    keywords:
+    - rocketmq
+    - export
+    name: rocketmq-export
+    type: application
+    urls:
+    - https://github.com/Sterrenhemel/rocketmq-helm/releases/download/rocketmq-export-1.2.2/rocketmq-export-1.2.2.tgz
+    version: 1.2.2
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-11-07T04:11:16.315668592Z"
@@ -14,4 +38,4 @@ entries:
     urls:
     - https://github.com/Sterrenhemel/rocketmq-helm/releases/download/rocketmq-export-1.2.0/rocketmq-export-1.2.0.tgz
     version: 1.2.0
-generated: "2022-11-07T04:11:16.315683092Z"
+generated: "2022-11-07T04:48:50.446193401Z"
